@@ -1,0 +1,52 @@
+.name{
+	font-family: Anurati;
+}
+/* Slider */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+.carousel-item::before{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(93, 4, 177) !important;
+    opacity: 0.2;
+}
+.carousel-caption h5{
+    font-size: 65px;
+    font-weight: 60;
+}
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
+.slider-btn .btn{
+    color: white;
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+.slider-btn .btn-2{
+    color: #111010;
+    background-color: white;
+}
+.modal-title{
+    color: black;
+}
+div.modal-body{
+    color:black;
+}
+.modal-backdrop{
+    display:none;
+}
+.name::first-letter{
+    color: $secundario;
+}

@@ -1,0 +1,30 @@
+///Patrón colores///
+$principal: rgb(93,4,177);
+$secundario:#04d9fb;
+$font_principal: 'Anurati';
+$font_size:30px;
+
+///Modificando variables de Bootstrap///
+///Button///
+$primary:$principal;
+$btn-font-family:$font_principal;
+$btn-font-size:$font_size;
+// $btn-link-color:              $link-color;
+$btn-link-hover-color:$secundario;
+// $btn-link-disabled-color:     $gray-600;
+
+///Modal
+$modal-content-bg:$secundario;
+///Menú
+$navbar-dark-active-color:$secundario;
+$navbar-dark-hover-color:rgba($secundario, .75);
+$navbar-dark-toggler-border-color:rgba($secundario, .1);
+///Carrusel
+$carousel-indicator-active-bg:$secundario;
+
+
+
+
+
+@import "../libs/bootstrap/scss/bootstrap";
+@import '_section';
